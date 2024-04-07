@@ -1,0 +1,13 @@
+GET http://localhost:3000/songs
+
+
+###
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "title": "Animals",
+  "artists": ["Martin Garrix"],
+  "releaseDate": "2010-02-02",
+  "duration": "03:13"
+}
